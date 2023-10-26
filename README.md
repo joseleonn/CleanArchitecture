@@ -21,8 +21,18 @@ Todas las carpetas de SRC son de uso común o reutilizables, por ejemplo, compon
 
 ## Explicacion de Carpetas:
 
-En la carpeta `pages` van a ir todas las vistas de nuestra App, ejemplo Home, Register, Login, etc. Dentro de cada vista se va a contener todo lo necesario para esa vista, también se van a reutilizar los NOMBRES de las carpetas de SRC por ejemplo: - pages - Home - Home.tsx - index.ts - adapters - models - hooks - components - services
-....
+En la carpeta `pages` van a ir todas las vistas de nuestra App, ejemplo Home, Register, Login, etc. Dentro de cada vista se va a contener todo lo necesario para esa vista, también se van a reutilizar los NOMBRES de las carpetas de SRC en caso de que sea necesario por ejemplo:
+
+- pages
+  - Home
+    - Home.tsx
+    - index.ts
+    - adapters
+    - models
+    - hooks
+    - components
+    - services
+      ...
 
 La carpeta `adapters` sirve para adaptar lo recibido desde el backend a un objeto común para toda la aplicación y no tener que estar usando el nombre de las variables del backend, entonces si en algún futuro cambia lo que recibimos del backend no hay que hacer todos los cambios en donde lo usemos, sino solamente en el adapter.
 
