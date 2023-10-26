@@ -34,7 +34,7 @@ En la carpeta `pages` van a ir todas las vistas de nuestra App, ejemplo Home, Re
     - services
       ...
 
-La carpeta `adapters` sirve para adaptar lo recibido desde el backend a un objeto común para toda la aplicación y no tener que estar usando el nombre de las variables del backend, entonces si en algún futuro cambia lo que recibimos del backend no hay que hacer todos los cambios en donde lo usemos, sino solamente en el adapter.
+La carpeta `adapters` sirve para adaptar lo recibido desde el backend a un objeto común para toda la aplicación y no tener que estar usando el nombre de las variables del backend, entonces si en algún futuro cambia lo que recibimos del backend no hay que hacer todos los cambios en donde lo usemos, sino solamente en el adapter, tambien sirve si desde el backend recibimos muchos datos que no necesitamos, los adaptamos a travez de un adapter y lo convertimos en una Entidad que necesitemos.
 
 La carpeta `models` es para todas las interfaces que utilizemos y la representación de nuestras entidades en Interfaces.
 
