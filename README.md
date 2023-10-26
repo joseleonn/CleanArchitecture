@@ -64,3 +64,8 @@ En la carpeta `utilities` son para la reutilización de lógica, ejemplo una fun
 - Para los fetch al backend se utiliza Axios ya que permite la cancelacion de las peticiones cuando estas ya fueron enviadas, ver el ejemplo para seguir la linea de desarrollo y buenas practicas (useFetchAndLoad.ts, example.service.ts, IAxiosCall.models.ts).
 - Este es un video en donde se explica un proyecto estrucutrado de la misma forma para entenderlo mejor.
   https://www.youtube.com/watch?v=XEcZaKK38fg&list=PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ&index=10
+
+## Recomendaciones
+
+- Utilizar extension Auto Barrel
+- Utilizar extension Prettier - Code formatter para auto identar correctamente.
