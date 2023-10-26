@@ -60,3 +60,7 @@ En la carpeta `utilities` son para la reutilización de lógica, ejemplo una fun
 - Para variables y funciones utilizar Camel Case.
 - Para estados globales utilizar Redux como por ejemplo el Usuario, por lo general si tienes varias entidades como Alumnos, Profesores lo ideal sería meterlos en el Redux.
 - Para estados en vistas y pasar estados entre componentes que están medio lejos pero siempre en la misma vista sería bueno utilizar context.
+- Se utiliza un alias para la carpeta src. todo lo que provenga de @/ hacer referencia a src.
+- Ver llamadas al backend que estan de ejemplo para seguir la linea de desarrollo y buenas practicas.
+- Este es un video en donde se explica un proyecto estrucutrado de la misma forma para entenderlo mejor.
+  https://www.youtube.com/watch?v=XEcZaKK38fg&list=PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ&index=10
